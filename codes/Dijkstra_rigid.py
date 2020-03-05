@@ -20,10 +20,11 @@ pointRobot[10][20] = green
 pygame.draw.circle(gameDisplay, red, (225,50), 25)
 
 pygame.draw.polygon(gameDisplay, red, ((25,15),(75,15),(100,50),(75,80),(50,50),(20,80)))
-#pygame.draw.polygon(gameDisplay, red, ((30,95),(75,185),(100,150),(75,120),(50,150),(20,120)))
-#pygame.draw.polygon(gameDisplay, red, ((225,10),(225,40),(200,15),(250,15)))
+pygame.draw.polygon(gameDisplay, red, ((95,170),(30,132.5),(35,125),(100,162.5)))
+pygame.draw.polygon(gameDisplay, red, ((200,175),(225,160),(250,175),(225,190)))
 
-pygame.draw.ellipse(gameDisplay, red, [150, 100, 80, 40])
+
+pygame.draw.ellipse(gameDisplay, red, (110, 80, 80, 40))
 
 while True:
     for event in pygame.event.get():
